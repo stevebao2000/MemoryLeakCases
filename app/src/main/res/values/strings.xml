@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Memory Leak Cases</string>
+    <string name="pressback">Press back key a few times to see memory leak</string>
+    <string name="explain">Click the button then press back key. After back and forth a few times,
+        the LeakCanary will be able to catch the memory leak in the code (Be patient, it takes some
+        time for leakCanary to find out the memory leak). The solutions are also provided in
+        the code (commented out). Once you understand the code, replace the bad codes with right codes.
+        You will find out that the memory leak problems are gone.</string>
+</resources>

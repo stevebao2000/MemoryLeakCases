@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp"
+    android:background="@drawable/bg_flat"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Use LeakCanary to Detect Memory Leaks"
+            android:textAlignment="center"
+            android:textColor="#FF6644"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/innerClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cbutton"
+            android:layout_marginTop="10dp"
+            android:text="Inner Class Leak"
+            />
+
+        <Button
+            android:id="@+id/asyncTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cbutton"
+            android:layout_marginTop="10dp"
+            android:text="AsyncTask Leak"
+            />
+
+        <Button
+            android:id="@+id/RegService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cbutton"
+            android:layout_marginTop="10dp"
+            android:text="Registered Service Leak"
+            />
+
+        <Button
+            android:id="@+id/singleton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cbutton"
+            android:layout_marginTop="10dp"
+            android:text="Singleton Leak"
+            />
+
+        <Button
+            android:id="@+id/staticRef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cbutton"
+            android:layout_marginTop="10dp"
+            android:text="Static Reference Leak"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/explain"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>
